@@ -1,0 +1,15 @@
+{
+    "inputs": [],
+    "servers": {
+        "podcast-mcp-server": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "C:\\Code\\YouTubeVideos\\McpServerYouTubeDemo\\PodcastMcpServer",
+                "--no-build"
+            ]
+        }
+    }
+}
