@@ -19,3 +19,9 @@ You can then set it via a dotnet user secret, with the following dotnet command.
 cd ExampleClientApplication
 dotnet user-secrets set OpenAiApiKey <my openai key>
 ```
+
+# Troubleshooting
+
+If you're having trouble getting this to work - ensure you've built the solution before trying to add it as an MCP Server in vscode. The command in the video (and above) to install the MCP Server in vscode has `--no-build`, so you need to ensure you've built it manually beforehand. Double-check that build output for any errors.
+
+If running the MCP Server in GitHub Copilot doesn't work - open the vscode output window via "mcp.json -> More -> Show Output", and inspect the output for any warnings or errors.
